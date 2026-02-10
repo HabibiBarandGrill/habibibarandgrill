@@ -1,11 +1,11 @@
 @font-face {
     font-family: Brush;
-    src: url("assets/fonts/brushscriptstd.ttf")  format("truetype");
+    src: url("../assets/fonts/brushscriptstd.ttf")  format("truetype");
 }
 
 @font-face {
     font-family: Boska;
-    src: url("assets/fonts/Boska-Regular.ttf")  format('truetype');
+    src: url("../assets/fonts/Boska-Regular.ttf")  format('truetype');
 }
 
 ::-webkit-scrollbar {
