@@ -112,7 +112,7 @@ bottom: 0;
 
     .intro-merch-img {
         margin: auto;
-        width: 10em;
+        max-width: 250px;
         text-align: right;
     }
 
