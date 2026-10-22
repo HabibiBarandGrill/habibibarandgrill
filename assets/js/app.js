@@ -13,9 +13,7 @@ const hideValues = {
     show: "showme",
     double: "dblclick"
   };
-  
 
-  
   function toggleEventHandler(event) {
     const targetSelecor = event.target.dataset.target;
     const target = document.querySelector(targetSelecor);
