@@ -79,6 +79,7 @@ body {
     }
 
     .menuitemtext{
+        position: relative;
         padding: 5px;
         background-color: #00000077;
         border-radius: 25px 25px 25px 25px;
@@ -123,11 +124,47 @@ body {
     }   
 
     .menuitem h1{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
         font-family: Brush;
         font-size: 50px;
         text-shadow: black 1px 1px 2px;
         font-weight: 100;
     }
+
+    .menuitem-vegan-badge,
+    .menuitem-vegetarian-badge{
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        right: auto;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        min-height: 30px;
+        border-radius: 50%;
+        background:#16c777;
+        border: 2px solid rgba(255, 255, 255, 0.65);
+        color: #fff;
+        font-family: Boska;
+        font-size: 13px;
+        line-height: 1;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;
+        padding: 0;
+        z-index: 2;
+    }
+    .menuitem-vegan-badge{
+        font-size: 11px;
+        background:#1683c7;
+    }
+
 
     .menuitem p{
         font-family: Boska;
