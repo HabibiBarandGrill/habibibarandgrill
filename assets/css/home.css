@@ -16,8 +16,13 @@ bottom: 0;
     text-align: center;
 }
 
+.intro-mv-section{
+display: flex;
+justify-content: space-between;
+}
+
 .intro-merch {
-  margin: 2% 10%;
+    margin: 2%;
   font-family: Boska;
   text-align: justify;
   justify-content: space-evenly;
@@ -29,6 +34,7 @@ bottom: 0;
   border: solid #EF4805 4px;
   border-radius: 2em;
   background-color: #3d271e;
+    padding: 2%;
 }
 
 .intro-merch-img {
@@ -53,7 +59,7 @@ bottom: 0;
 }
 
 .intro-voucher {
-  margin: 2% 10%;
+margin: 2%;
   font-family: Boska;
   text-align: justify;
   justify-content: space-evenly;
@@ -64,7 +70,7 @@ bottom: 0;
   border: solid #EF4805 4px;
   border-radius: 2em;
   background-color: #3d271e;
-  padding: 5%;
+  padding: 2%;
 }
 
 .intro-voucher-img {
@@ -150,7 +156,6 @@ bottom: 0;
         flex-direction: column;
         text-align: justify;
         font-size: 2em;
-        padding: 2%;
     }
 
     .intro-voucher-img {
@@ -202,5 +207,10 @@ bottom: 0;
 
     .intromap{
         display: none;
+    }
+    .intro-mv-section{
+        flex-direction: column;
+        text-align: justify;
+        margin: auto;
     }
 }
