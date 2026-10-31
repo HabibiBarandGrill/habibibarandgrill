@@ -155,8 +155,18 @@ bottom: 0;
 
     .intro-voucher-img {
         margin: auto;
-        max-width: 350px;
+        max-width: 250px;
         text-align: right;
+    }
+
+    .intro-voucher-txt-main {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .intro-voucher-txt-sub {
+        font-size: .75em;
+        font-style: italic;
     }
 
     .intro-merch-img {
